@@ -22,7 +22,7 @@ public final class Main extends JavaPlugin {
     @EventHandler
     public void JoinListener(PlayerJoinEvent join) {
         Player player = join.getPlayer();
-        join.setJoinMessage("Welcome "+player.getDisplayName());
+        join.setJoinMessage("Welcome "+player.getDisplayName()+"!");
     }
 
     @EventHandler
