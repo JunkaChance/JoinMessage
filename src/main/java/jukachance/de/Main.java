@@ -28,7 +28,7 @@ public final class Main extends JavaPlugin {
     @EventHandler
     public void QuitListener(PlayerQuitEvent quit) {
         Player player = quit.getPlayer();
-        quit.setQuitMessage("See again "+player.getDisplayName());
+        quit.setQuitMessage("See you later "+player.getDisplayName()+"!");
     }
 
 }
