@@ -1,0 +1,5 @@
+name: JoinMessage
+version: '${project.version}'
+main: jukachance.de.Main
+api-version: 1.18
+authors: [ JukaChance ]
